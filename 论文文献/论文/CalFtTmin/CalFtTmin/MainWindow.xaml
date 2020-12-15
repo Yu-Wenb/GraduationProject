@@ -1,0 +1,60 @@
+﻿<Window x:Class="CalFtTmin.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CalFtTmin"
+        mc:Ignorable="d"
+        Title="计算F(t)、Tmin" Height="300" Width="450">
+    <Grid Background="AliceBlue" Margin="5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.2*"></ColumnDefinition>
+            <ColumnDefinition Width="0.3*"></ColumnDefinition>
+            <ColumnDefinition Width="0.2*"></ColumnDefinition>
+            <ColumnDefinition Width="0.3*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.1*"></RowDefinition>
+            <RowDefinition Height="0.1*"></RowDefinition>
+            <RowDefinition Height="0.1*"></RowDefinition>
+            <RowDefinition Height="0.1*"></RowDefinition>
+            <RowDefinition Height="0.1*"></RowDefinition>
+            <RowDefinition Height="0.1*"></RowDefinition>
+            <RowDefinition Height="0.1*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock Text="相对坐标X" FontSize="16" Grid.Column="0" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+        <TextBox Name="tbx_x" Grid.Row="0" Grid.Column="1" Margin="5,10"></TextBox>
+        
+        <TextBlock Text="相对坐标Y" FontSize="16" Grid.Column="2" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+        <TextBox Name="tbx_y"  Grid.Row="0" Grid.Column="3" Margin="5,10"></TextBox>
+
+        <TextBlock Text="相对航速VX" FontSize="16" Grid.Column="0" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+        <TextBox Name="tbx_vx" Grid.Row="1" Grid.Column="1" Margin="5,10"></TextBox>
+
+        <TextBlock Text="相对航速VY" FontSize="16" Grid.Column="2" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+        <TextBox Name="tbx_vy" Grid.Row="1" Grid.Column="3" Margin="5,10"></TextBox>
+
+        <TextBlock Text="长半轴a" FontSize="16" Grid.Column="0" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+        <TextBox Name="tbx_asemi" Grid.Row="2" Grid.Column="1" Margin="5,10"></TextBox>
+
+        <TextBlock Text="短半轴b" FontSize="16" Grid.Column="2" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+        <TextBox Name="tbx_bsemi" Grid.Row="2" Grid.Column="3" Margin="5,10"></TextBox>
+
+        <TextBlock Text="a轴偏移" FontSize="16" Grid.Column="0" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+        <TextBox Name="tbx_xoffset" Grid.Row="3" Grid.Column="1" Margin="5,10"></TextBox>
+
+        <TextBlock Text="b轴偏移" FontSize="16" Grid.Column="2" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+        <TextBox Name="tbx_yoffset" Grid.Row="3" Grid.Column="3" Margin="5,10"></TextBox>
+
+        <TextBlock Text="航向角" FontSize="16" Grid.Column="0" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+        <TextBox Name="tbx_a" Grid.Row="4" Grid.Column="1" Margin="5,10"></TextBox>
+
+        <TextBlock Text="Tmin1" FontSize="16" Grid.Column="0" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+        <TextBox Name="tbx_tmin1" Grid.Row="5" Grid.Column="1" Margin="5,10" IsEnabled="False"></TextBox>
+
+        <TextBlock Text="Tmin2" FontSize="16" Grid.Column="2" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+        <TextBox Name="tbx_tmin2" Grid.Row="5" Grid.Column="3" Margin="5,10" IsEnabled="False"></TextBox>
+
+        <Button Name="btn_calculate" Grid.Column="3" Grid.Row="6" Margin="30,10" Content="计算" Click="btn_calculate_Click"></Button>
+    </Grid>
+</Window>

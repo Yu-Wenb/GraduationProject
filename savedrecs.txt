@@ -1,0 +1,94 @@
+﻿FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU He, YX
+   Jin, Y
+   Huang, LW
+   Xiong, Y
+   Chen, PF
+   Mou, JM
+AF He, Yixiong
+   Jin, Yi
+   Huang, Liwen
+   Xiong, Yong
+   Chen, Pengfei
+   Mou, Junmin
+TI Quantitative analysis of COLREG rules and seamanship for autonomous
+   collision avoidance at open sea
+SO OCEAN ENGINEERING
+LA English
+DT Article
+DE Quantitative analysis; COLREG rules and Seamanship; Modeling;
+   Navigation; Autonomous collision avoidance
+ID FUZZY-LOGIC; MARINE VEHICLES; SHIP DOMAIN; NAVIGATION; SYSTEM
+AB Ship collision avoidance is highly dependent upon seamanship and rules. When ship collision risk exists, proper collision avoidance actions must be taken according to the correct encounter situation and determined stage. All autonomous collision avoidance (ACA) operations in the future must comply with given rules and seamanship practices, which make the quantitative analysis of them prerequisites for ACA. This study presents a novel quantitative analysis system for the International Regulations for Preventing Collisions at Sea (COLREG) Rules and Seamanship. The proposed system consists of three parts: an encounter situation discrimination model based on the mutually relative bearing of the "target ship" (TS) and "own ship" (OS); a stage discrimination model representing the extent of collision risk per different domain models for every potential situation and a model to determine collision avoidance action per COLREG, seamanship, and ship maneuverability information was established accordingly. The collision avoidance plans appropriate for different situations and stages are generated based on the rules, seamanship, and rudder steering direction judgments. A simulation scenario was utilized to validate the effectiveness and feasibility of the system.
+C1 [He, Yixiong; Jin, Yi; Huang, Liwen; Xiong, Yong; Chen, Pengfei; Mou, Junmin] WUT, Sch Nav, Wuhan, Peoples R China.
+   [He, Yixiong; Huang, Liwen; Xiong, Yong; Mou, Junmin] WUT, Hubei Key Lab Inland Shipping Technol, Wuhan, Peoples R China.
+RP Mou, JM (reprint author), WUT, Sch Nav, Wuhan, Peoples R China.; Mou, JM (reprint author), WUT, Hubei Key Lab Inland Shipping Technol, Wuhan, Peoples R China.
+EM moujm@whut.edu.cn
+RI Mou, Jun-min/J-1185-2019
+OI Chen, Pengfei/0000-0002-8042-6831
+FU National Natural Science Foundation of China (NSFC)National Natural
+   Science Foundation of China [51579201, 51679180]; Open Foundation of
+   Nation Water Transportation Safety Engineering Technical Center
+   [17KF02]; Independent Innovation Research Fund of Wuhan University of
+   Technology [175212004]
+FX This work was supported by the National Natural Science Foundation of
+   China (NSFC) (Grant number: 51579201 and 51679180), the Open Foundation
+   of Nation Water Transportation Safety Engineering Technical Center
+   (Grant number: 17KF02), the Independent Innovation Research Fund of
+   Wuhan University of Technology (Grant number: 175212004).
+CR Benjamin MR, 2006, IEEE INT CONF ROBOT, P3581, DOI 10.1109/ROBOT.2006.1642249
+   Cockcroft A.N., 2011, GUIDE COLLISION AVOI
+   CURTIS RG, 1986, J OPER RES SOC, V37, P397, DOI 10.2307/2582567
+   DAVIS PV, 1980, J NAVIGATION, V33, P215, DOI 10.1017/S0373463300035220
+   FUJII Y, 1971, J INST NAVIG, V24, P543, DOI 10.1017/S0373463300022384
+   Goerlandt F, 2015, SAFETY SCI, V77, P182, DOI 10.1016/j.ssci.2015.03.015
+   GOODWIN EM, 1975, J NAVIGATION, V28, P328, DOI 10.1017/S0373463300041230
+   He YX, 2014, J WUHAN U TECHNOL TR, V38, P1088
+   Hilgert H., 1997, DTSCH HYDROGR Z, V49, P531, DOI DOI 10.1007/BF02764347
+   Kao SL, 2007, J NAVIGATION, V60, P17, DOI 10.1017/S0373463307003980
+   Krata P., 2015, ARCH TRANSP, V34, P51
+   Kuwata Y, 2014, IEEE J OCEANIC ENG, V39, P110, DOI 10.1109/JOE.2013.2254214
+   Lee SM, 2004, INT J CONTROL AUTOM, V2, P171
+   Montewka J, 2011, P I MECH ENG O-J RIS, V225, P307, DOI 10.1177/1748006X11399988
+   Montewka J, 2010, RELIAB ENG SYST SAFE, V95, P573, DOI 10.1016/j.ress.2010.01.009
+   Perera LP, 2011, J MAR SCI TECH-JAPAN, V16, P84, DOI 10.1007/s00773-010-0106-x
+   Perera L.P., 2009, P INT WORKSH ADV SHI, P205
+   Perera LP, 2017, OCEAN ENG, V130, P684, DOI 10.1016/j.oceaneng.2016.09.007
+   Perera LP, 2015, OCEAN ENG, V109, P344, DOI 10.1016/j.oceaneng.2015.08.016
+   Pietrzykowski Z, 2009, J NAVIGATION, V62, P93, DOI 10.1017/S0373463308005018
+   Statheros T, 2008, J NAVIGATION, V61, P129, DOI 10.1017/S037346330700447X
+   U.S. Dept. Homeland Security/U.S. Coast Guard, 2010, NAV RUL
+   Wang N, 2010, J NAVIGATION, V63, P733, DOI 10.1017/S0373463310000202
+   Weng JX, 2012, J NAVIGATION, V65, P207, DOI 10.1017/S0373463311000683
+   Xu Q., 2014, MATH PROBL ENG, V1, P1
+   Zhang JF, 2012, P I MECH ENG M-J ENG, V226, P250, DOI 10.1177/1475090211434869
+   Zhong J. D., 1999, J SHANGHAI MARIT U, V2, P76
+NR 27
+TC 7
+Z9 7
+U1 4
+U2 33
+PU PERGAMON-ELSEVIER SCIENCE LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN 0029-8018
+J9 OCEAN ENG
+JI Ocean Eng.
+PD AUG 1
+PY 2017
+VL 140
+BP 281
+EP 291
+DI 10.1016/j.oceaneng.2017.05.029
+PG 11
+WC Engineering, Marine; Engineering, Civil; Engineering, Ocean;
+   Oceanography
+SC Engineering; Oceanography
+GA FA9KR
+UT WOS:000405765000026
+DA 2019-10-20
+ER
+
+EF
